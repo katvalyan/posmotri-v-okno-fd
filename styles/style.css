@@ -138,7 +138,6 @@ ol {
 
 .content__list-container {
   overflow-y: auto;
-  overflow-x: hidden;
   position: relative;
   height: 298px;
 }
@@ -231,9 +230,6 @@ ol {
   border-right: none;
   line-height: 21.6px;
   font-size: 18px;
-}
-
-.search-form__textfield::placeholder {
   color: rgb(255, 255, 255 0.7);
 }
 
@@ -255,7 +251,6 @@ ol {
   justify-content: space-between;
   align-items: center;
   column-gap: 15px;
-  height: 22px;
 }
 
 .search-form__pseudo-checkbox {
@@ -328,16 +323,4 @@ ol {
 
 .content__card-link:hover {
   text-decoration: underline;
-}
-
-.preloader-template {
-  position: absolute;
-}
-
-.preloader {
-  position: absolute;
-}
-
-.preloader-chasing-squares {
-  position: absolute;
 }
